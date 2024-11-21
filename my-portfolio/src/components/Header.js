@@ -6,9 +6,9 @@ function Header() {
     <header className={styles.header}>
       <h1>Johnny Quinn's Portfolio</h1>
       <nav>
-        <a href="#about" className={styles.navLink}>About</a>
-        <a href="#projects" className={styles.navLink}>Projects</a>
-        <a href="#contact" className={styles.navLink}>Contact</a>
+        <a href="/about" className={styles.navLink}>About</a>
+        <a href="/projects" className={styles.navLink}>Projects</a>
+        <a href="/contact" className={styles.navLink}>Contact</a>
       </nav>
     </header>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Contact.module.css";  // Importing CSS Module
-
+import Button from "react-bootstrap/Button";
 
 function Contact() {
   return (
@@ -19,8 +19,9 @@ function Contact() {
         <label htmlFor="message">Message:</label>
         <textarea id="message" name="message" placeholder="Enter your message" required />
 
-        <button type="submit">Send</button>
+        <Button variant="warning" type="submit">Send</Button>
       </form>
+
     </section>
   );
 }
